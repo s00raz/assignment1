@@ -34,9 +34,16 @@ a{
     color:#fff;
     text-decoration:none;
     transition:ease-out 0.30s;
+    box-shadow:inset 0 0 0 0 blue;
+
 }
 a:hover{
-	background-color:blue;
+	 box-shadow:inset 105px 0 0 0 blue;
+	 /*color:#cb3200;*/
+     font-size: 20px;
+
+
+	
 
 
 }
