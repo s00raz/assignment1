@@ -2,13 +2,14 @@
  display: grid;
 background-image:url(image5.jpg);
  background-color: #615182;
- height:900px;
+ height:1000px;
 grid-template-columns: repeat(4, 300px);
 grid-auto-rows: 100px;
 grid-row-gap: 20px;
 grid-column-gap: 10px;
 padding-left:30px;
 padding-top:30px;
+/*transition:ease-out 0.30s;*/
 
 
 /*justify-content:center;*/
@@ -18,15 +19,14 @@ padding-top:30px;
   grid-row:span 2;
   grid-column:span 2;
  /* height:400px;*/
-box-shadow: 5px 5px 10px #4A52B5;
+box-shadow: 5px 5px 10px #d9721f;
   background-color: black;
-
 }
 .item2{
   border-radius:15px 15px 15px 15px;
    grid-row:span 2;
   grid-column:span 2;
-box-shadow: 5px 5px 10px #4A52B5;
+box-shadow: 5px 5px 10px #d9721f;
  
   
   background-color: black;
@@ -94,11 +94,16 @@ a{
 
   a:hover{
     font-size: 39px;
+
   }
-  .hover-animate{
-  transition:ease-out 0.3s ;
 
-}
-.hover-animate:hover{
+  .item1:hover,
+  .item2:hover,
+  .item3:hover,
+  .item4:hover,
+  .item5:hover,
+  .item6:hover{
 
-}
+    background-color: white;
+   
+  }
