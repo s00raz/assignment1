@@ -1,28 +1,17 @@
 
 .image
 {
-
-grid-template-rows: (300px 300px);
 display:grid;
+/*grid-template-rows: (300px 300px);*/
+
 background-image:url(image5.jpg);
 height:900px;
-
 background-size: cover;
 
 
 
 }
-.text{
-	text-shadow: 5px 2px 10px #4A52B5;
-font-size:190px;
-color:white;
-height:50px;
-transition:ease-out 0.30s;
 
-cursor:pointer;
-
-
-}
 
 ul{
 	list-style:none;
@@ -40,18 +29,6 @@ ul{
 	/*background-color: red;*/
 	justify-content: center;
 }
-.welcome{
-	margin-top:-400px;
-	display:flex;
-	/*background-color: red;*/
-	justify-content: center;
-	align-content: center;
-}
-
-
-
-
-
 li{
 	float:left;
 	/*border-right:1px solid ;*/
@@ -64,7 +41,25 @@ a{
     text-decoration:none;
     transition:ease-out 0.30s;
     font-size:2em;
-   
+   }
+
+.welcome{
+	margin-top:-400px;
+	display:flex;
+	/*background-color: red;*/
+	justify-content: center;
+	/*align-content: center;*/
+}
+
+.text{
+	text-shadow: 5px 2px 10px #4A52B5;
+font-size:190px;
+color:white;
+height:50px;
+transition:ease-out 0.30s;
+
+cursor:pointer;
+
 
 }
 a:hover{
