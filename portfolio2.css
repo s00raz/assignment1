@@ -110,3 +110,41 @@ a{
     background-color: white;
    
   }
+  @media (max-width: 600px) {
+
+
+
+    .main-grid{
+      padding-left:50px;
+      display:block;
+      height:1300px;
+      
+
+
+    }
+    .item1{
+      height:200px;
+      width:400px;
+    }
+    .item2{
+      height:200px;
+      width:400px;
+    }
+    .item3{
+      height:200px;
+      width:400px;
+    }
+
+    .item4{
+      height:200px;
+      width:400px;
+    }
+    .item5{
+      height:200px;
+      width:400px;
+    }
+    .item6{
+      width:400px;
+      height:200px;
+    }
+    }

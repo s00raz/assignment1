@@ -72,6 +72,13 @@ a:hover{
 	 color:#cb3200;
      font-size: 130px;
 }
-
+@media (max-width: 600px) {
+		.text{
+			margin-top: 200px;
+			font-size: 120px;
+		}
+		.image{
+           
+		}
 
 
