@@ -23,7 +23,7 @@ ul{
     font-size: 13px;
 }
 
-.navigation{
+.bar{
 	display:flex;
 	height:36px;
 	/*background-color: red;*/
@@ -40,7 +40,7 @@ a{
     color:white;
     text-decoration:none;
     transition:ease-out 0.30s;
-    font-size:2em;
+    font-size:34px;
    }
 
 .welcome{
@@ -72,13 +72,79 @@ a:hover{
 	 color:#cb3200;
      font-size: 130px;
 }
+.checkbtn{ 
+
+	        background-color: blue;
+			font-size: 50px;
+			color:white;
+			line-height: 80px;
+			margin-right:40px;
+
+			cursor:pointer;
+			display:none;
+		}
+
+#check{ 
+display:none;
+ }
+
 @media (max-width: 600px) {
-		.text{
+	.text{
 			margin-top: 200px;
 			font-size: 120px;
 		}
-		.image{
-           
+    .image{
+    	height:800px;
+    }
+    nav ul li{
+    	display:block;
+    }
+
+
+
+
+  /*ul{
+  	margin-top: -300px;
+	height:36px;
+	line-height:36px;
+    font-size: 25px;
+  }
+    
+   
+	li{
+		border-bottom: solid;
+		background-color: grey;
+		float:none;
+		padding:10px;
+	}
+
+	.bar{
+		height:800px;
+		width:100%;
+		flex-direction: column;
+		background-color:purple;
+        margin-top:-17px;
+		left:200%;
+		height:100vh;
+		transition: ease-out 0.3s;
+		position: absolute;
+		text-align: center;
+		align-content-content: center;
+	}
+	
+        
+
+
+		.checkbtn{
+			display:block;
+			width:100%;
 		}
+  #check:checked ~ .bar{
+   left: 0%;
+    height: 800px;
+  }
+  
+
+}*/
 
 
