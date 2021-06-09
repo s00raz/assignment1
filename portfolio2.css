@@ -61,41 +61,45 @@ box-shadow:5px 5px 10px #4A52B5 ;
   background-color: black;
 box-shadow:5px 5px 10px #4A52B5 ;
 }
+nav{
+  background:black;
+  display:flex;
+  justify-content: center;
+}
 
 
+nav ul {
 
-
-ul{
   list-style:none;
+  float:right;
+  /*margin-right:40px;*/
   padding:0;
   margin:0;
   text-shadow: 5px 2px 10px #4A52B5;
   height:36px;
   line-height:36px;
     font-size: 13px;
-}
 
-.navigation{
-  display:flex;
-  height:36px;
-  background-color: #171717;
-  justify-content: center;
 }
-li{
-  float:left;
+nav li{
+  display:inline-block;
+  margin:0px, 8px;
+  /*border-right:1px solid ;*/
 }
-a{
+nav a{
 
-  display:flex;
   padding:0 28;
     color:white;
     text-decoration:none;
     transition:ease-out 0.30s;
-    font-size:2em;
-  }
+    font-size:34px;
+   }
+a{
+  transition: ease-out 0.30s;
+}
 
-  a:hover{
-    font-size: 39px;
+  nav a:hover{
+    font-size:50px;
 
   }
 
@@ -115,9 +119,11 @@ a{
 
 
     .main-grid{
-      padding-left:50px;
-      display:block;
-      height:1300px;
+      padding:50px;
+      display:flex;
+      height:1200px;
+      flex-direction: column;
+
       
 
 
