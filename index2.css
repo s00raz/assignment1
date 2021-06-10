@@ -8,11 +8,13 @@ display:grid;
 
 background-image:url(image5.jpg);
 height:850px;
-
-
-
+}
 
 }
+
+
+
+
 nav{
 	
 	display:flex;
@@ -106,7 +108,7 @@ a:hover{
     
     nav ul {
     	height:800px;
-    	margin-top:-28px;
+    	margin-top:-22px;
     	position:fixed;
     	width:100%;
     	top:80px;
@@ -132,6 +134,7 @@ a:hover{
         #check:checked~ul{
         	top:90;
         }
+
 
 
 
