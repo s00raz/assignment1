@@ -50,6 +50,18 @@ cursor:pointer;
 .text:hover{
 	font-size: 120px;
 }
+.Experience{
+
+    	box-shadow: 2px 2px 19px ;
+    	background-color: #d78c28;
+    	margin-top: 90px;
+
+    }
+ .ups{
+       box-shadow: 2px 2px 19px ;
+    	background-color: #d78c28;
+    	margin-top: 90px;
+    }
 
 
  .checkbtn span
@@ -97,10 +109,8 @@ cursor:pointer;
     	font-size:30px;
     }
 
-    .Experience{
-    	display: block;
-    	text-shadow: 2px 2px #ff0000;
-    }
+
+
        
     #check:checked~ul{
         	top:53;
