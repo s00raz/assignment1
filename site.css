@@ -96,6 +96,11 @@ cursor:pointer;
     	
     	font-size:30px;
     }
+
+    .Experience{
+    	display: block;
+    	text-shadow: 2px 2px #ff0000;
+    }
        
     #check:checked~ul{
         	top:53;
@@ -105,6 +110,9 @@ cursor:pointer;
 			display:block;
 
 		}
+
+
+
   
 
 }
