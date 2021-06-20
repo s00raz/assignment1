@@ -23,6 +23,7 @@ padding-top:30px;
  /* height:400px;*/
 box-shadow: 5px 5px 10px #d9721f;
   background-color: black;
+  transition: ease-out 0.3s;
 }
 .item2{
   border-radius:15px 15px 15px 15px;
@@ -30,7 +31,7 @@ box-shadow: 5px 5px 10px #d9721f;
   grid-column:span 2;
 box-shadow: 5px 5px 10px #d9721f;
  
-  
+  transition:ease-out 0.30s;
   background-color: black;
 
 }
@@ -39,6 +40,7 @@ box-shadow: 5px 5px 10px #d9721f;
    grid-row:span 2;
   grid-column:span 3;
   background-color: black;
+  transition:ease-out 0.30s;
 box-shadow:5px 5px 10px #4A52B5 ;
 }
 .item4{
@@ -46,6 +48,7 @@ box-shadow:5px 5px 10px #4A52B5 ;
   box-shadow:5px 2px 10px #4A52B5 ;
   border-radius:15px 15px 15px 15px;
   background-color: black;
+  transition:ease-out 0.30s;
 
 }
 .item5{
@@ -53,6 +56,7 @@ box-shadow:5px 5px 10px #4A52B5 ;
   background-color: black;
   grid-row:span 3;
 box-shadow:5px 5px 10px #4A52B5 ;
+transition:ease-out 0.30s;
 }
 .item6{
   grid-column:span 3;
@@ -60,6 +64,7 @@ box-shadow:5px 5px 10px #4A52B5 ;
   border-radius:15px 15px 15px 15px;
   background-color: black;
 box-shadow:5px 5px 10px #4A52B5 ;
+transition:ease-out 0.30s;
 }
 nav{
   background-color: black;
@@ -102,28 +107,34 @@ nav a{
   justify-content: center;
   /*align-content: center;*/
 }
-
-.text{
-  text-shadow: 5px 2px 10px #4A52B5;
-font-size:190px;
-color:white;
-height:50px;
-transition:ease-out 0.30s;
-
-cursor:pointer;
-
-
-}
 a:hover{
-     /*color:#cb3200;*/
      font-size: 49px;
 }
 
-.text:hover{
-
-   color:#cb3200;
-     font-size: 130px;
+.item1:hover{
+background-color:white;
 }
+
+.item2:hover{
+background-color:white;
+}
+.item3:hover{
+background-color:white;
+}
+.item4:hover{
+background-color:white;
+}
+
+.item5:hover{
+background-color:white;
+}
+
+.item6:hover{
+background-color:white;
+}
+
+
+
 .checkbtn span{      
   margin:4px;
   height: 9px;
