@@ -15,14 +15,13 @@ padding-top:30px;
 /*justify-content:center;*/
 }
 .item1{
-
-  color:black;
+   color: #020d0e;
+  background-color:black;
   border-radius:15px 15px 15px 15px;
   grid-row:span 2;
   grid-column:span 2;
  /* height:400px;*/
 box-shadow: 5px 5px 10px #d9721f;
-  background-color: black;
   transition: ease-out 0.3s;
 }
 .item2{
@@ -88,12 +87,12 @@ nav ul {
 }
 nav li{
   display:inline-block;
-  margin:0px, 8px;
+  margin: 0px 8px;
   /*border-right:1px solid ;*/
 }
 nav a{
 
-  padding:0 28;
+  padding:0px 28px;
     color:white;
     text-decoration:none;
     transition:ease-out 0.30s;
@@ -214,8 +213,9 @@ background-color:white;
       font-size:30px;
     }
     #check:checked~ul{
-          top:90;
+         top:90px;
         }
     .checkbtn span{
-      display:block;
-    }
+    display:block;
+         }
+       }

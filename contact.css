@@ -1,6 +1,7 @@
 .image{
   display:grid;
   background-image: url(image7.jpg);
+  height: 900px;
   background-size:cover;
   background-repeat: no-repeat;
 }
@@ -24,12 +25,12 @@ list-style:none;
 
 nav li{
   display:inline-block;
-  margin:0px, 8px;
+  margin:0px 8px;
   /*border-right:1px solid ;*/
 }
 nav a{
 
-  padding:0 28;
+  padding:0px 28px;
     color:white;
     text-decoration:none;
     transition:ease-out 0.30s;
@@ -100,7 +101,6 @@ cursor:pointer;
 
  }
 .button{
-  font-style: 20px;
   border:solid 1px transparent;
   color:white;
   background-color: #ed1214;
@@ -177,7 +177,7 @@ font-size: 40px;
       font-size:30px;
     }
     #check:checked~ul{
-          top:90;
+          top:90px;
         }
 
     }
