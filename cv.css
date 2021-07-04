@@ -117,13 +117,8 @@ box-shadow: 0px 2px 10px pink;
 
 #check{ 
  display:none;
-                     }
-
-  @media(mx-width: 600px){
-  	
-
-  }                   
-/*@media (max-width: 600px) {
+                     }                  
+@media (max-width: 600px) {
 	.top{
 
 background-image:url(image5.jpg);
@@ -190,4 +185,4 @@ font-size: 15px;
 
     }
 
-}*/
+}
