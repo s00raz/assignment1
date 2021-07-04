@@ -67,30 +67,32 @@ grid-column-gap: 10px;
 .item1{
 
 /*border:solid;*/
+color: white;
  background-color: #16071e;
-
- /*opacity: 30%;*/
-transition: ease-out 0.3s;
-font-size: 40px;
 box-shadow: 0px 2px 10px pink;
 }
 
 
 .item2{
+	box-shadow: 0px 2px 10px pink;
+	color: white;
 	background-color:#16071e;
  border:solid;
 }
 .item3{
+	color: white;
 	 background-color: #16071e;
 	border:solid;
 	
 }
 .item4{
+	color: white;
 	 background-color: #16071e;
 	border:solid;
 	
 }
 .item5{
+	color: white;
 	 background-color: #16071e;
 	border:solid;
 	
@@ -132,25 +134,24 @@ height:1205px;
 
 	}
 	.item1{
-		
+		font-size: 15px;
 		height:200px;
 	}
 	.item2{
-
-		
+		font-size: 15px;
 		height: 200px
 	}
 	.item3{
-		
+		font-size: 15px;
         height:200px;
 	}
 	.item4{
-		
+		font-size: 13px;
          height:200px;
 
      }
 	.item5{
-
+font-size: 15px;
 		height:200px;
 
 	}

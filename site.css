@@ -1,5 +1,5 @@
 .main{
-	height: 700px;
+	height:700px;
 }
 nav{
 	display: flex;
@@ -16,14 +16,14 @@ nav ul{
 nav li{
 	display: inline-block;
 	
-	margin:0px, 8px;
+	margin:0px 8px;
 
 
 }
 
 nav a{
 
-	padding:0 28;
+	padding:0px 28px;
     color:white;
     text-decoration:none;
     transition:ease-out 0.30s;
@@ -35,7 +35,6 @@ a:hover{
 }
 .site{
 	display: flex;
-	flex-direction: horizontal;
   justify-content: center;
 }
 .text{
@@ -122,8 +121,6 @@ cursor:pointer;
     	top:-200%;
     	background-color:#3f54c0;
     	transition:all .5s;
-    	padding-right: -190px;
-
 
     } 
 
@@ -144,7 +141,7 @@ cursor:pointer;
 
        
     #check:checked~ul{
-        	top:53;
+        	top:53px;
         }
        
 	.checkbtn span{
@@ -155,7 +152,5 @@ cursor:pointer;
 
 
   
-
-}
 
 }
