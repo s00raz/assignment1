@@ -90,6 +90,17 @@ cursor:pointer;
     	margin-top: 90px;
 
   }
+  .validation{
+        box-shadow: 2px 2px 19px ;
+        background-color: #e1341e;
+        margin-top: 90px;
+  }
+
+.images img{
+height: 250px;
+width: 400px;
+}
+
 
 
  .checkbtn span

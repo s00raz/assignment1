@@ -86,10 +86,10 @@ a:hover{
  display:none;
                      }
 
-@media (max-width: 600px) {
-	.text{
+@media(max-width: 600px){
+       	.text{
 			margin-top: 200px;
-			font-size: 120px;
+			font-size: 90px;
 		}
     .image{
     	height:1200px;
